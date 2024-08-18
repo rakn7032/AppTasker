@@ -8,8 +8,8 @@
 2. Create and Activate Virtual Environment:
   python -m venv venv
 
-  # On Mac use:       source venv/bin/activate 
-  # On Windows use:   venv\Scripts\activate
+  On Mac use:       source venv/bin/activate 
+  On Windows use:   venv\Scripts\activate
 
 3. Install Dependencies:
   pip install -r requirements.txt
