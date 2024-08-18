@@ -135,9 +135,9 @@ SIMPLE_JWT = {
 DATABASES = {
   'default': {
     'ENGINE': 'django.db.backends.postgresql',
-    'NAME': 'appstore',
-    'USER': 'admin1',
-    'PASSWORD': 'admin@123',
+    'NAME': #DB name,
+    'USER': #DB user,
+    'PASSWORD': # password,
     'HOST': '127.0.0.1',
     'PORT': '5432',
   }
@@ -192,8 +192,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # SMTP Configuration
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = 'smtp.gmail.com'
-DEFAULT_FROM_EMAIL = 'ravilla.anil3@gmail.com' # from mail
-EMAIL_HOST_USER = 'ravilla.anil3@gmail.com' # from mail
-EMAIL_HOST_PASSWORD = 'kgcg wjng cpiv yfxb' # mail App password
+DEFAULT_FROM_EMAIL = # from mail
+EMAIL_HOST_USER = # from mail
+EMAIL_HOST_PASSWORD = # mail App password
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
