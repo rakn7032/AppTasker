@@ -188,12 +188,13 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'appstore_getpoints/images')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# uncomment the belove code
 
-# SMTP Configuration
-EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-EMAIL_HOST = 'smtp.gmail.com'
-DEFAULT_FROM_EMAIL = # from mail
-EMAIL_HOST_USER = # from mail
-EMAIL_HOST_PASSWORD = # mail App password
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
+# # SMTP Configuration
+# EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+# EMAIL_HOST = 'smtp.gmail.com'
+# DEFAULT_FROM_EMAIL = # from mail
+# EMAIL_HOST_USER = # from mail
+# EMAIL_HOST_PASSWORD = # mail App password
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
